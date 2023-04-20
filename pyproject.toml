@@ -1,0 +1,6 @@
+[tool.ruff]
+select = ["I"]
+
+[tool.ruff.isort]
+# this next line isn't necessary for ruff to identify a first-party import but has no effect
+# known-first-party = ["pycharm_ruff_test"]
